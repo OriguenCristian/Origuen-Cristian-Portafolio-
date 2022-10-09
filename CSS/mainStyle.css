@@ -1,0 +1,64 @@
+.containerIntro{
+    height: 470px;
+}
+.containerIntro h1{
+    margin: 5rem 0rem 5rem 1rem;
+    font-weight: 400;
+    font-size: 80px;
+} 
+.containerIntro p{
+    margin: 0rem 0rem 1rem 1rem;    
+}
+.containerIntro p:nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+}
+.containerIntro p:nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 60%;
+}
+.containerIntro p:nth-child(4){
+    font-weight: 400;
+}
+hr{
+    margin: 1rem;
+    width: 80%;
+    align-items: center;
+}
+
+.trabajosContainerGrid{
+    display: grid;
+    grid-template-columns: 50% 35%;
+    height: 470px;
+    justify-content: center;
+    gap:20px;
+    margin-bottom: 40px;
+}
+.trabajosContainerGrid .trabajo img:nth-child(1){
+    width: 100%;
+    height: 100%;
+    grid-column: 1/2;
+    margin-bottom: 2rem;
+}
+.trabajosContainerGrid .trabajo img:nth-child(2){
+    width: 100%;
+    height: 100%;
+    grid-column: 2/3;
+    margin-bottom: 2rem;
+}
+.trabajo{
+    text-align: center;
+    box-shadow: 8px -4px 15px 0 #000;
+}
+.trabajo p:nth-child(2){
+    margin: 5px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.trabajo p:nth-child(3){
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 65%;
+}
