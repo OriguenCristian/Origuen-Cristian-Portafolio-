@@ -72,7 +72,7 @@
     display: flex;
     width: 150%;
     animation: slider 30s infinite  alternate;
-    animation-timing-function: ecubic-bezier(0.2, -0.22, 0.44, 0.75) ;
+    animation-timing-function:cubic-bezier(0.08,-0.1, 0.42, 0.23) ;
 }
 .skilTecnoRwap .skill img{
     width: 100px;
