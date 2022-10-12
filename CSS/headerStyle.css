@@ -1,5 +1,4 @@
 header{
-    display: flex;
     color: black;
     width: 100%;
     height: 7rem;
@@ -13,8 +12,26 @@ header{
     width: inherit;
     height: 7rem;
     margin: 0px auto;
-} 
-.headerContainer .logoRwap img {
+}
+.logoRwap{
+    display: flex;
+}
+header label img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 16px;
+    right: 33px;
+}
+header label:hover{
+    cursor: pointer;
+}
+#btnMenu{
+    display:none;   
+}
+/* Estilo de scroll del menu */
+
+.headerContainer .logoRwap #imgLogo {
     height: 6.5rem;    
 }
 .headerContainer .logoRwap , .headerContainer nav, .headerContainer .socialMediaIcons{
@@ -24,15 +41,21 @@ header{
 .contenedorBotones{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .contenedorBotones li{
     margin: 1rem;
     padding: 1rem;
+    text-align: center;
     border: solid 1px;
+}
+.contenedorBotones li:hover{
+    background: rgba(62, 157, 197, 0.663);
+
 }
 .contenedorBotones li a{
     text-decoration: none;
-    width: inherit;
-    height: inherit;
     color: black;
 }
+
+

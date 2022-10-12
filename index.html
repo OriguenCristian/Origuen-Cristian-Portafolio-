@@ -7,29 +7,29 @@
     <link rel="stylesheet" href="/CSS/styleGeneral.css">
     <link rel="stylesheet" href="/CSS/headerStyle.css">
     <link rel="stylesheet" href="/CSS/mainStyle.css">
+    <link rel="stylesheet" href="/CSS/styesMenuScroll.css">
     <link  rel="icon"href="/Multimedia/c77156e4-f76d-49a9-b09e-19dda0d26700-PhotoRoom.ico" />
 
     <title>Origuen Cristian</title> 
     
 </head>
 <body>
-    <header>
-        <div class="headerContainer">
+    <header class="">
+        <div id="headerContainer" class="headerContainer ">
             <div class="logoRwap">
-                <img src="/Multimedia/Logo-Personal-C-O.png" alt="Logo-Personal">
-            </div>       
+                <img id="imgLogo" src="/Multimedia/Logo-Personal-C-O.png" alt="Logo-Personal">
+                <input type="checkbox" name="btnMenu" id="btnMenu">
+                <label  id="btnMenuLabel" for="btnMenu"> 
+                    <img src="/Multimedia/bars-staggered-solid.svg" alt="">
+                </label>      
+            </div>             
             <nav>
                 <ul class="contenedorBotones">
                     <li><a href="" class="botonesNav">Inicio</a></li>
                     <li><a href=""  class="botonesNav">Un poco de mi</a></li>
                 </ul>
             </nav>
-            <!-- <div class="socialMediaIcons">
-                <i>Facebook</i>
-                <i>gitHub</i>
-                <i>wassap</i>
-
-            </div> -->
+           
         </div>
     </header>
     <main>
@@ -163,6 +163,6 @@
         Foter 
         y redes
     </footer>
-    
 </body>
+<script src="/JS/index.js"></script>
 </html>
