@@ -9,7 +9,7 @@ btnMenu.addEventListener('change', function() {
     
     if(window.scrollY>100){
 
-        contenedorBtn.style.display = this.checked ? "flex" : "";
+        contenedorBtn.style.display = this.checked ? "flex" :"";
     }
    
   });
