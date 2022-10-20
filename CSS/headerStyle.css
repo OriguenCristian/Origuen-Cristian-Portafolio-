@@ -13,16 +13,6 @@ header{
     height: 7rem;
     margin: 0px auto;
 }
-.logoRwap{
-    display: flex;
-}
-header label img{
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    top: 16px;
-    right: 33px;
-}
 header label:hover{
     cursor: pointer;
 }

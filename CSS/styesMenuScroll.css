@@ -2,7 +2,7 @@
     transition: all 0.7s;
     background: transparent;
     position:fixed;
-    height: 13rem;
+    height: 1rem;
     top: 0px;
     left: 0px;
     z-index: 2;
@@ -15,17 +15,18 @@
     display: block;
 }
 .ScrollContenedorBtn{
-    display: none;
-    transition: all 0.7s;
     height: 19rem;
+    width: 12rem;
+    display: none;
+    position: absolute;
+    top: 55px;
+    right: 55px;
+    transition: all 0.7s;
     background: rgb(17,110,150);
-    z-index: 2;
-    justify-content: initial;
     flex-direction: column;
-    margin: 57px 48px;
     border-radius: 5px;
     border: solid 2px rgb(10, 72, 99);
-   box-shadow: 0 19px 38px rgba(0,0,0,0.30),
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30),
               0 15px 12px rgba(0,0,0,0.22);
 }
 header label img{
@@ -33,6 +34,9 @@ header label img{
     display:none;
     width: 40px;
     height: 40px;
+    position: absolute;
+    top: 16px;
+    right: 33px;
 }
 header label:hover{
     cursor: pointer;
