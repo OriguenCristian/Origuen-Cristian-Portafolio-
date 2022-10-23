@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin: 20px 0px 80px 0px
 }
 .imagenIntroduccion img{
     
@@ -11,9 +12,12 @@
     border: solid 3px;
 
  }
-.skillTrabajo, .skill{
+ .skill{
+    margin: 0px 0px 80px 0px
+ }
+.skillTrabajo{
     padding:1rem 0rem;
-    margin: 2rem 0rem;
+    margin: 20px 0px 0px 0px
 }
 .containerIntro{
     height: 450px;
@@ -42,7 +46,7 @@
 .trabajosContainerGrid{
     display: grid;
     grid-template-columns: 50% 35%;
-    height: 600px;
+    height: 54rem;
     justify-content: center;
     gap:20px; 
 }
@@ -50,19 +54,17 @@
     width: 100%;
     height: 100%;
     grid-column: 1/2;
-    margin-bottom: 2rem;
 }
 .trabajosContainerGrid .trabajo img:nth-child(2){
     width: 100%;
     height: 100%;
     grid-column: 2/3;
-    margin-bottom: 2rem;
 }
 .trabajo{
     text-align: center;
 }
 .trabajo p:nth-child(2){
-    margin: 5px;
+    margin: 50px 0px 5px 0px;
     font-size: 25px;
     font-weight: 400;
 }
@@ -79,7 +81,6 @@
     border: 0px;
     border-radius: 10px;
     outline: 0px solid;
-    outline: -8px;
     box-shadow: 3px 3px 10px;
     position: relative;
     overflow: hidden;
@@ -106,6 +107,7 @@
 }
 .reseumenRwap h2{
     font-weight: 400;
+    margin: 0px 0px 30px 0px;
 }
 .skilTecnoRwap{
     width: 80%;
@@ -143,14 +145,19 @@
     95% { margin-left: 0%;}
 }
 /* Estilos seccion Sobre */
+#sobreMi{
+    margin: 30px 0px 80px 0px;
+}
 .sobreWrap{
     display: grid;
-    grid-template-columns: auto auto auto;
-    margin: 26px 30px 80px 30px;
+    grid-template-columns: auto auto;
+    margin: 30px 0px 80px 0px;
     align-items: center;
+    justify-items: center;
+    grid-row-gap: 60px;
 }
 .sobreTextWrap{
-    width: 50%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     margin: 0px auto;
@@ -171,11 +178,11 @@
     font-size: 19px;
     line-height: 30px;
 }
-.imagenSobreRwap{
+.imagenSobreContainer{
 
 }
-.imagenSobreRwap img{
-    /* margin-left: 30px; */
-    max-width: 90%;
-    height: 30rem;
+.imagenSobreContainer img{
+    margin: 15px 0px 0px 0px;
+    width: 654px;
+    height: 328px;
 }
