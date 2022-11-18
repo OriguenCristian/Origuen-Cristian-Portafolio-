@@ -15,10 +15,6 @@
  .skill{
     margin: 0px 0px 80px 0px
  }
-.skillTrabajo{
-    padding:1rem 0rem;
-    margin: 20px 0px 0px 0px
-}
 .containerIntro{
     height: 450px;
 }
@@ -45,7 +41,7 @@
 }
 .trabajosContainerGrid{
     display: grid;
-    grid-template-columns: 50% 35%;
+    grid-template-columns: 46% 35%;
     height: 54rem;
     justify-content: center;
     gap:20px; 
@@ -152,12 +148,14 @@
     display: grid;
     grid-template-columns: auto auto;
     margin: 30px 0px 80px 0px;
-    align-items: center;
-    justify-items: center;
-    grid-row-gap: 60px;
+    grid-row-gap: 3.65rem;
+    justify-content: center;
+}
+.sobreWrap :nth-child(3){
+    
 }
 .sobreTextWrap{
-    width: 80%;
+    width: 20rem;
     display: flex;
     flex-direction: column;
     margin: 0px auto;
@@ -165,10 +163,10 @@
 }
 
    .sobreWrap h2{
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 36px;
-    line-height: 50px;
+    margin-top: 0.635rem;
+    margin-bottom: 1.25rem;
+    font-size: 2.25rem;
+    line-height: 3.125rem;
     font-weight: 400;
 }
 .sobreTextWrap p{
@@ -183,6 +181,14 @@
 }
 .imagenSobreContainer img{
     margin: 15px 0px 0px 0px;
-    width: 654px;
-    height: 328px;
+    width: 28rem;
+    height: 20rem;
+}
+.instituciones{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.instituciones__logo{
+    width:15rem;
 }
