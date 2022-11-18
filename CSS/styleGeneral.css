@@ -29,8 +29,8 @@ html{
 	scroll-behavior: smooth;
 }
 body {
-	background: rgb(17,110,150);
-	background: linear-gradient(270deg, rgba(17,110,150,1) 13%, rgba(133,167,196,1) 60%, rgba(192,200,204,1) 100%);
+	background: rgb(232, 236, 238);
+	/* background: linear-gradient(270deg, rgba(17,110,150,1) 13%, rgba(133,167,196,1) 60%, rgba(192,200,204,1) 100%); */
 	line-height: 1;
 	font-family: 'EB Garamond', serif, sans-serif;
 }
