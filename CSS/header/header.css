@@ -1,0 +1,30 @@
+header{
+    background-color: rgb(232, 155, 48);
+}
+
+.header__logo{
+    width: 120px;
+    height: 108px;
+}
+.header__nav{
+    padding: 0.5rem;
+    width: 70%;
+}
+.container-item{
+    align-items: flex-end;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nav-item{
+    margin: 0px 0.8rem;
+}
+.nav-link{
+    padding: 0.3rem;
+    border-bottom: 1.5px solid black;
+    border-top: 1.5px solid black;
+}
+
+.nav-link:hover{
+    background-color:rgb(239, 166, 65) ;
+}
