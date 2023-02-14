@@ -1,33 +1,22 @@
 window.addEventListener("scroll",ScrollMenu);
-const btnMenu = id("btnMenu")
-const label= id("btnMenuLabel");
-const img = id("imgLogo");
-const container = id("headerContainer");
-const liBtn = document.querySelector(".liBtn");
-const contenedorBtn = document.querySelector(".contenedorBotones");
+
 
 
 function id(str){
     return document.getElementById(str);    
 }
-
-btnMenu.addEventListener('change', function(){
-    
-    if(window.scrollY>100){
-        contenedorBtn.style.display = this.checked ? "" :"flex";
-    }
-   
-  });
  
 function ScrollMenu(){ 
-    contenedorBtn.classList.toggle("ScrollContenedorBtn",window.scrollY>100)
-    container.classList.toggle("scrollMenuContainer", window.scrollY>100);
-    label.classList.toggle("scrollIconLabel", window.scrollY>100)
-    if( window.scrollY>100){
-        img.style.cssText ="display:none"
-       
-        
+    if( window.scrollY>1){
+       document.getElementById("headerLogo").style.display = "none"
     } else{
-        img.style.cssText ="display: inline-bolock"
+        document.getElementById("headerLogo").style.display = "block"
     }
 }
+
+
+let prueba = document.querySelector("trabajo-container")
+
+ prueba.addEventListener("mouseover" ,function(){
+    console.log("aqui se hixo hover")
+ })

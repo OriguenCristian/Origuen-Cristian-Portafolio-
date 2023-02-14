@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    min-height: calc(100vh - 126px);
+    min-height: calc(100vh + 60px);
 }
 .presentacion__rwap{
     width: 50%;

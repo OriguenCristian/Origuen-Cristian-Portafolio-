@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./CSS/main/tablero-trabajo.css">
     <link rel="stylesheet" href="./CSS/main/conoceme.css">
     <link rel="stylesheet" href="./CSS/main/contactame.css">
+    <link rel="stylesheet" href="./CSS/footer/footer.css">
     
 
     <title>Origuen Cristian</title>
@@ -23,10 +24,10 @@
         <nav class="header__nav container-xl">
             <ul class="container-item nav">
                 <li class="nav-item"><a href="#presentacion" class="nav-link">Inicio</a></li>
-                <li class="nav-item"><a href="#conoceme" class="nav-link">Conoceme</a></li>
-                <img class="header__logo" src="./Multimedia/Logo-Personal-C-O.png" alt="logo personal">
                 <li class="nav-item"><a href="#tablero-trabajos" class="nav-link">Proyectos</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Contacto</a></li>
+                <img id="headerLogo" class="header__logo" src="./Multimedia/Logo-Personal-C-O.png" alt="logo personal">
+                <li class="nav-item"><a href="#conoceme" class="nav-link">Conoceme</a></li>
+                <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -98,7 +99,7 @@
                 </div>                    
             </article>
         </section>
-        <section class="conoceme container-fluid">
+        <section id="conoceme" class="conoceme container-fluid">
             <h2>Conoceme</h2>
             <div id="conoceme" class="conoceme__container conoceme__container___primero">
                 <div  class="conoceme__texto-rwap">
@@ -118,14 +119,14 @@
                 <img class="conoceme__img img-thumbnail" src="./Multimedia/WhatsApp Image 2022-11-17 at 11.50.29 PM.jpeg" alt="">
             </div>
         </section>
-        <section id="contactame" class="contactame container-fluid">
+        <section id="contacto" class="contactame container-fluid">
             <div class="contactame__container">
                 <h3>Contacto</h3>
                 <div class="contactos-rwap">
-                    <a class="contacto" href="">correo<i class="bi bi-envelope-at contacto__icon"></i></a>
-                    <a class="contacto" href="">WhatsApp<i class="bi bi-whatsapp contacto__icon"></i></a>
-                    <a class="contacto" href="">imstagram<i class="bi bi-instagram contacto__icon"></i></a>
-                    <a class="contacto" href="" >Linedink<i class="bi bi-linkedin contacto__icon"></i></a>
+                    <a class="contacto" href=""><i class="bi bi-envelope-at contacto__icon"><br></i>correo</a>
+                    <a class="contacto" href=""><i class="bi bi-whatsapp contacto__icon"><br></i>WhatsApp</a>
+                    <a class="contacto" href=""><i class="bi bi-instagram contacto__icon"><br></i>imstagram</a>
+                    <a class="contacto" href="https://www.linkedin.com/in/origuen-cristian/" ><i class="bi bi-linkedin contacto__icon"><br></i>Linedink</a>
                 </div>
                 <svg class="bi" ... role="img" aria-label="Tools">
                     <use xlink:href="bootstrap-icons.svg#tools"/>
@@ -133,12 +134,14 @@
 
             </div>
         </section>
-
     </main>
-    <footer>      
+    <footer>
+        <div  style="background-color:darkblue;" style="width: 100px;" style="height: 100px;"> 
+        </div>      
         pie de pagina
     </footer>
     
 </body>
+<script src="./JS/index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </html>
